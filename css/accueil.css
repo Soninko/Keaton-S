@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon');
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Kreon',serif;
+  color:black;
+  overflow-x: hidden;
+}
+
+.container-fluid{
+  padding: 0;
+
+}
+
+/* Menu */
+.menu{
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.menu a {
+  margin-right: 15px;
+  margin-left: 15px;
+ color:black;
+  text-decoration: none;
+}
+.menu a:hover{
+  margin-bottom: 10px;
+  transition: 1s;
+  border-bottom: 2px solid black;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+/* Fin menu */
+
+.banner{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban img{
+  width: 100%;
+  max-width: 100%;
+}
+/* Description */
+.description{
+  margin-top: 10px;
+}
+h2{
+  font-size: 2.75rem;
+}
+
+h3{
+  font-size: 2.75rem;
+}
+
+p{
+  font-size: 25px;
+}
+/* Fin description */
+
+/* Footer */
+.follow{
+  font-size: 5rem;
+  text-align: center;
+}
+.icons{
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+
+}
+
+.fa-google{
+  margin-right:10px;
+  color: red;
+}
+
+.fa-facebook{
+  margin-right: 20px;
+  color:#0D4F8B;
+}
+
+.fa-youtube-play{
+  margin-right:20px;
+  color:red;
+}
+
+.fa-instagram{
+  margin-right: 20px;
+  color:brown;
+}
+.fa-snapchat{
+  margin-right: 20px;
+  color:yellow;
+}
+/* Fin footer */
+
+@media screen and (max-width:768px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  .icons{
+    font-size: 40px;
+  }
+
+  .follow{
+    font-size: 30px;
+  }
+}

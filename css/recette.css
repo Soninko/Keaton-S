@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon');
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Kreon',serif;
+  color:black;
+  overflow-x: hidden;
+}
+
+.container-fluid{
+  padding: 0;
+
+}
+
+/* Menu */
+.menu{
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.menu a {
+  margin-right: 15px;
+  margin-left: 15px;
+ color:black;
+  text-decoration: none;
+}
+.menu a:hover{
+  margin-bottom: 10px;
+  transition: 1s;
+  border-bottom: 2px solid black;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+/* Fin menu */
+
+/*Bannière*/
+.banner{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban img{
+  width: 100%;
+  max-width: 100%;
+}
+
+/*Fin Bannière*/
+
+
+/*Recette*/
+.recettes_froides{
+  margin: auto;
+  margin-top: 15px;
+  height:auto;
+}
+.title{
+  margin: auto;
+  border:2px solid black;
+  height:100px;
+  width:170px;
+  margin-bottom:15px;
+}
+
+.title1{
+  position: relative;
+  left:15px;
+  font-size: 3rem;
+}
+.title2{
+  border: 2px solid black;
+  width:auto;
+  margin: auto;
+  height: 304px;
+ margin-bottom: 15px;
+ transform: scaleY(0.6);
+ transform: scaleX(0.7);
+}
+.title3{
+  border: 2px solid black;
+  width:auto;
+  height: 304px;
+  margin: auto;
+  margin-bottom: 15px;
+  transform: scaleY(0.6);
+  transform: scaleX(0.7);
+}
+
+.title4{
+  border: 2px solid black;
+  width:auto;
+  height:304px;
+  margin: auto;
+  margin-bottom: 15px;
+  transform: scaleY(0.6);
+  transform: scaleX(0.7);
+}
+.entree1{
+  float:left;
+}
+.entree2{
+  float:left;
+}
+.entree3{
+  float:left;
+}
+p{
+  position: relative;
+  left:15px;
+}
+
+.food{
+  margin: auto;
+  border:2px solid black;
+  height:100px;
+  width:170px;
+  margin-bottom:15px;
+  transform: scaleY(0.6);
+  transform: scaleX(0.7);
+}
+
+.food1{
+  border: 2px solid black;
+  width:auto;
+  height:304px;
+  margin: auto;
+  margin-bottom: 15px;
+  transform: scaleY(0.6);
+  transform: scaleX(0.7);
+}
+
+.food2{
+  border: 2px solid black;
+  width:auto;
+  height:304px;
+  margin: auto;
+  margin-bottom: 15px;
+  transform: scaleY(0.6);
+  transform: scaleX(0.7);
+}
+
+.food3{
+  border: 2px solid black;
+  width:auto;
+  height:304px;
+  margin: auto;
+  margin-bottom: 15px;
+  transform: scaleY(0.6);
+  transform: scaleX(0.7);
+}
+.plats{
+  position: relative;
+  left:15px;
+  font-size: 3rem;
+}
+
+
+.plats1{
+  float:left;
+}
+
+.plats2{
+  float:left;
+}
+
+.plats3{
+  float:left;
+}
+
+.recettes_onctueuses{
+  margin: auto;
+  margin-top: 15px;
+  height:auto;
+}
+
+.pancarte{
+    margin: auto;
+    border:2px solid black;
+    height:100px;
+    width:190px;
+    margin-bottom:15px;
+    transform: scaleY(0.6);
+    transform: scaleX(0.7);
+}
+
+.pancarte{
+  position: relative;
+  left:15px;
+  font-size: 3rem;
+}
+
+.dessert{
+border: 2px solid black;
+width:auto;
+height:304px;
+margin: auto;
+margin-bottom: 15px;
+transform: scaleY(0.6);
+transform: scaleX(0.7);
+}
+
+.numero1{
+  float: left;
+}
+
+.dessert1{
+  border: 2px solid black;
+  width:auto;
+  height:304px;
+  margin: auto;
+  margin-bottom: 15px;
+  transform: scaleY(0.6);
+  transform: scaleX(0.7);
+}
+
+.numero2{
+  float:left;
+}
+
+
+.dessert2{
+  border: 2px solid black;
+  width:auto;
+  height:304px;
+  margin: auto;
+  margin-bottom: 15px;
+  transform: scaleY(0.6);
+  transform: scaleX(0.7);
+}
+
+.numero3{
+  float:left;
+}
+/*Fin Recette */
+
+
+/*Footer*/
+.follow{
+  font-size: 5rem;
+  text-align: center;
+}
+.icons{
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+
+}
+
+.fa-google{
+  margin-right:10px;
+  color: red;
+}
+
+.fa-facebook{
+  margin-right: 20px;
+  color:#0D4F8B;
+}
+
+.fa-youtube-play{
+  margin-right:20px;
+  color:red;
+}
+
+.fa-instagram{
+  margin-right: 20px;
+  color:brown;
+}
+.fa-snapchat{
+  margin-right: 20px;
+  color:yellow;
+}
+/* Fin Footer*/
+
+
+@media screen and (max-width:768px) {
+
+  body{
+    overflow-x: hidden;
+  }
+  .title3{
+    height:auto;
+    width:100%;
+  }
+
+  .title4{
+    height: auto;
+    width:100%;
+  }
+
+  .title2{
+    height:auto;
+    width:100%;
+  }
+
+  .food1{
+    height:auto;
+    width:100%;
+  }
+
+  .food2{
+    height:auto;
+    width:100%;
+  }
+
+  .food3{
+    height:auto;
+    width:100%;
+  }
+
+  .dessert{
+    height:auto;
+    width:100%;
+  }
+
+  .dessert1{
+    height:auto;
+    width:100%;
+  }
+
+  .dessert2{
+    height:auto;
+    width:100%;
+  }
+
+  .entree1{
+    width:100%;
+  }
+
+  .entree2{
+    width:100%;
+  }
+
+  .entree3{
+    width: 100%;
+  }
+
+  .numero1{
+    width:100%;
+  }
+
+  .numero2{
+    width:100%;
+  }
+
+
+  .numero3{
+    width:100%;
+  }
+
+  .plats1{
+    width: 100%;
+  }
+
+  .plats2{
+    width: 100%;
+  }
+
+  .plats3{
+    width: 100%;
+  }
+  p{
+    font-size: 15px;
+  }
+
+  .icons{
+    font-size: 40px;
+  }
+
+  .follow{
+    font-size: 30px;
+  }
+
+  p{
+    position: relative;
+    left:0;
+  }
+  .pancarte{
+    position: relative;
+    left:0;
+    padding: 5px;
+  }
+
+  .food{
+    padding: 5px;
+  }
+}
